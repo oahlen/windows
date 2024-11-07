@@ -1,0 +1,27 @@
+[manager]
+
+[manager.border_style]
+fg = "#6b7089"
+
+[manager.cwd]
+fg = "#e2a478"
+
+[status]
+[status.mode_normal]
+bg = "#84a0c6"
+bold = true
+fg = "#161821"
+
+[status.mode_select]
+bg = "#b4be82"
+bold = true
+fg = "#161821"
+
+[status.mode_unset]
+bg = "#e3a478"
+bold = true
+fg = "#161821"
+
+[status.separator_style]
+bg = "#2e313f"
+fg = "#2e313f"

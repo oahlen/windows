@@ -1,0 +1,60 @@
+[styles.cpu]
+all_entry_color = "green"
+avg_entry_color = "gray"
+cpu_core_colors = ["red", "green", "yellow", "blue", "magenta", "cyan", "light red", "light green", "light yellow", "light blue", "light magenta", "light cyan"]
+
+[styles.memory]
+ram_color = "light magenta"
+cache_color = "light red"
+swap_color = "light yellow"
+arc_color = "light cyan"
+gpu_colors = ["light blue", "light red", "cyan", "green", "blue", "red"]
+
+[styles.network]
+rx_color = "green"
+tx_color = "cyan"
+rx_total_color = "light cyan"
+tx_total_color = "light green"
+
+[styles.battery]
+high_battery_color = "green"
+medium_battery_color = "yellow"
+low_battery_color = "red"
+
+[styles.tables]
+headers = {color = "light blue", bold = true}
+
+[styles.graphs]
+graph_color = "gray"
+legend_text = {color = "gray"}
+
+[styles.widgets]
+border_color = "dark gray"
+selected_border_color = "light blue"
+widget_title = {color = "yellow"}
+text = {color = "gray"}
+selected_text = {color = "black", bg_color = "light blue"}
+disabled_text = {color = "dark gray"}
+
+[[row]]
+  ratio=30
+  [[row.child]]
+  type="cpu"
+[[row]]
+    ratio=40
+    [[row.child]]
+      ratio=4
+      type="proc"
+      default=true
+    [[row.child]]
+      ratio=3
+      [[row.child.child]]
+        type="temp"
+      [[row.child.child]]
+        type="disk"
+[[row]]
+  ratio=30
+  [[row.child]]
+    type="net"
+  [[row.child]]
+    type="mem"

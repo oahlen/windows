@@ -1,0 +1,25 @@
+# Install with scoop install
+bat
+bottom
+curl
+dog
+dos2unix
+duf
+dust
+eza
+fastfetch
+fd
+figlet
+gping
+hexyl
+hyperfine
+jq
+neovim
+ripgrep
+sd
+tokei
+unzip
+wget
+xsv
+yazi
+zip
