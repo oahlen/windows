@@ -36,7 +36,7 @@
         "size": 11,
         "weight": "light"
       },
-      "intenseTextStyle": "none"
+      "intenseTextStyle": "bold"
     },
     "list": [
       {
@@ -88,7 +88,7 @@
       "red": "#F7768E",
       "selectionBackground": "#292D40",
       "white": "#A9B1D6",
-      "yellow": "#FF9E64"
+      "yellow": "#E0AF68"
     },
     {
       "background": "#E6E7ED",
@@ -100,7 +100,7 @@
       "brightGreen": "#385F0D",
       "brightPurple": "#5A3E8E",
       "brightRed": "#8C4351",
-      "brightWhite": "#343B58",
+      "brightWhite": "#2B3048",
       "brightYellow": "#8F5E15",
       "cursorColor": "#343B58",
       "cyan": "#006C86",
@@ -109,9 +109,9 @@
       "name": "Tokyo Night Day",
       "purple": "#5A3E8E",
       "red": "#8C4351",
-      "selectionBackground": "#D7D9E2",
+      "selectionBackground": "#C8CBD8",
       "white": "#343B58",
-      "yellow": "#965027"
+      "yellow": "#8F5E15"
     }
   ],
   "theme": "system",
